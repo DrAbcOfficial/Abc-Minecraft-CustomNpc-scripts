@@ -11,7 +11,6 @@ function damagedEntity(event)
 		var distance = event.target.getPos().distanceTo(pPlayer.getPos());
 		pPlayer.message("击中&a" + event.target.name + "&f伤害&c" + event.damage.toFixed(2) + "&f距离&b" + distance.toFixed(2));
 	}
-	
 }
 
 function keyPressed(event)
